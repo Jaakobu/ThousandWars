@@ -1,0 +1,72 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.body_bg {
+    background-image: url("../../img/TW_background.jpg");
+    background-attachment: fixed;
+    
+    
+}
+
+.bodyBg {
+    background-color: #823101;
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar {
+    background-color: #823101;
+    text-align: center;
+    width: 100%;
+    padding:0.5em;
+}
+
+.top-bar p {
+    font-family: futura, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+.top-bar .ressources p {
+    font-family: futura, sans-serif, serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1em;
+}
+
+.Menu p {
+    text-align: center;
+    font-size: 2em;
+    font-family: futura, sans-serif, serif;
+    color: #18222b;
+}
+
+.ressource_quantity {
+    text-align: right;
+}
+
+.menuButton {
+    margin: 1em;
+    text-align: center;
+    font-family: futura, sans-serif, serif;
+    background-color: #823101;
+    color: #18222b;
+    font-size: 2em;
+}
+
+.ressource_icon {
+    float:left;
+}
+
+.plateau {
+    background-image: url("../../img/ground_1.jpg");
+    height:100%;
+}

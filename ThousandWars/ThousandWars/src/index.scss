@@ -1,0 +1,164 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// *, *::before, *::after {
+//   box-sizing: inherit;
+//   padding: 0;
+//   margin: 0;
+// }
+
+.body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  height:100%;
+}
+
+html {
+  height: 100%;
+  width:100%;
+}
+
+.body_bg {
+  background-image: url("img/TW_background.jpg");
+  height: 100%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.banner_title {
+  text-align: center;
+}
+
+.nav{
+  background-color: #a01500;
+  margin-bottom: 1em;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  // height: 2.5em;
+
+  &:hover{
+    background-color: #8f1400;
+  }
+
+  a{
+    color: #8f1400;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffd200;
+    text-decoration: none;
+    font-family: futura, serif, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+  }  
+}
+
+.btn-danger {
+  margin: 1em;
+  background-color: #a01500 !important;
+  border-block-color: #a01500 !important;
+  text-decoration: none;
+  font-family: futura, serif, sans-serif;
+  //font-weight: bold;
+  //font-size: 2em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #ffd200;
+
+  &:hover{
+    color: #8f1400 !important;
+    border-block-color: #8f1400 !important;
+  }
+}
+
+.checbox{
+  padding: 0.5em;
+  margin-top: 1em;
+  height: 2.5em;
+  background-color: #a01500;
+  text-decoration: none;
+  font-family: futura, serif, sans-serif;
+  //font-weight: bold;
+  //font-size: 2em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #ffd200;
+
+  &:hover{
+    background-color: #8f1400;
+  }
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+.signIn, .signup, .game, .resetPassword {
+  background: rgba(255,255,255,0.6);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6d3600;
+  font-family: Hei, Gurmukhi, serif, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  font-family: 'Oswald', Gurmukhi, serif, sans-serif;
+  font-weight: 100;
+}
+
+.authField {
+  padding: 1em;
+  margin-top: 4px;
+  width: 40%;
+  font-size: 1em;
+}
+
+p {
+  margin-top: 1em;
+  font-family: 'Oswald', Gurmukhi, serif, sans-serif;
+  font-weight: 100;
+}
+
+.game{
+  height: 100%;
+  width:100%;
+  p{
+    text-decoration: none;
+    font-family: futura, serif, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffd200;
+  }
+  .menu{
+    padding: 1.5em;
+    background-color: black;
+  }
+  .top-bar{
+    background-color: #a01500;
+    color: #a01500;
+    padding: 1.5em;
+    width:100%;
+
+    #scoreBar {
+      width: 100%;
+      background-color: grey;
+    }
+    
+    #userScore {
+      width: 1%;
+      height: 30px;
+      background-color: green;
+    }
+    
+    .ressources{
+      font-size: 1em;
+    }
+  }
+}
